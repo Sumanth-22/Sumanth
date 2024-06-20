@@ -1,27 +1,29 @@
 import java.util.Scanner;
 public class Details{
 	public static void main(String[] args){
+	
 		Scanner sc = new Scanner(System.in);
-       		System.out.print("Enter a name : ");
+       			System.out.print("Enter a name : ");
 		String name = sc.nextLine();
-		System.out.print("Enter a enter a age : ");
+			System.out.print("Enter a enter a age : ");
 		String age = sc.nextLine();
-		System.out.print("Enter a mail : ");
+			System.out.print("Enter a mail : ");
 		String Mail = sc.nextLine();
-		System.out.print("Enter a gender : ");
+			System.out.print("Enter a gender : ");
 		String gender= sc.nextLine();
-		System.out.print("Please enter sub1 Marks : ");
+			System.out.print("Please enter sub1 below 100 Marks : ");
 		float sub1 = sc.nextFloat();		
-		System.out.print("Please enter sub2 Marks : ");
+			System.out.print("Please enter sub2 below 100 Marks : ");
 		float sub2 = sc.nextFloat();
-		System.out.print("Please enter sub3 Marks : ");
+			System.out.print("Please enter sub3 below 100 Marks : ");
 		float sub3 = sc.nextFloat();		
-		System.out.print("Please enter sub4 Marks : ");
+			System.out.print("Please enter sub4 below 100 Marks : ");
 		float sub4 = sc.nextFloat();
-		System.out.print("Please enter sub5 Marks : ");
+			System.out.print("Please enter sub5 below 100 Marks : ");
 		float sub5 = sc.nextFloat();		
-		System.out.print("Please enter sub6 Marks : ");
+			System.out.print("Please enter sub6 below 100 Marks : ");
 		float sub6 = sc.nextFloat();
+
  		float total = sub1 + sub2+sub3+sub4+sub5+sub6;
 		
 		System.out.println("Name : " + name);
@@ -54,7 +56,7 @@ public class Details{
 			}
 			else
 				{
-					System.out.println("overall failed, because You failed in one subject");
+					System.out.println("overall failed, because You failed");
                                    }
 }
 }
