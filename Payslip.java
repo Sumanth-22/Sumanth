@@ -8,7 +8,7 @@ public class Payslip{
        			System.out.print("Enter a name : ");
 		String name = sc.nextLine();
 			System.out.print("Enter a enter a age : ");
-		String age = sc.nextLine();
+		int age = sc.nextInt();
 			System.out.print("Enter a mail : ");
 		String Mail = sc.nextLine();
 			System.out.print("Enter a gender : ");
